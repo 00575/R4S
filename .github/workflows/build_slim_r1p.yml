@@ -1,4 +1,4 @@
-name: build_slim_r2s
+name: build_slim_r1p
 
 on:
   workflow_dispatch:
