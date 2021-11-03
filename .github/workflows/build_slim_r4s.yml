@@ -1,11 +1,11 @@
-name: build_slim_r1p
+name: build_slim_r4s
 
 on:
   workflow_dispatch:
     inputs:
       device:
         description: 'select device to build'
-        default: 'r1p'
+        default: 'r4s'
         required: false
 
 jobs:
