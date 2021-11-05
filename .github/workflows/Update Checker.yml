@@ -42,8 +42,8 @@ jobs:
       if: steps.cacheHash.outputs.cache-hit != 'true'
       uses: peter-evans/repository-dispatch@v1
       with:
-        token: ${{ secrets.REPO_TOKEN }}
-        event-type: ${{ env.date }} 
+        token: ${{ secrets.WORKFLOW_TOKEN }}
+        event-type: ${{ update-env.date }} 
  
     - name: 删除工作流
       uses: GitRML/delete-workflow-runs@main
