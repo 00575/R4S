@@ -63,4 +63,4 @@ jobs:
           file_glob: true
           overwrite: true
           release_name: r4s-${{env.strDate}}
-          body: "${{env.strDate}}编译5.4.X内核 $(LINUX_VERSION) boardinfo.kernel"
+          body: "${{env.strDate}}编译5.10.X内核"
